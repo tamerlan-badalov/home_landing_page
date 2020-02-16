@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'poller_oneregular';
+    src: url('../fonts/pollerone/pollerone-webfont.eot');
+    src: url('../fonts/pollerone/pollerone-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pollerone/pollerone-webfont.woff') format('woff'),
+         url('../fonts/pollerone/pollerone-webfont.ttf') format('truetype'),
+         url('../fonts/pollerone/pollerone-webfont.svg#poller_oneregular') format('svg');
+}
+@font-face {
+    font-family: 'leckerli_oneregular';
+    src: url('../fonts/leckerlione/leckerlione-regular-webfont.eot');
+    src: url('../fonts/leckerlione/leckerlione-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leckerlione/leckerlione-regular-webfont.woff') format('woff'),
+         url('../fonts/leckerlione/leckerlione-regular-webfont.ttf') format('truetype'),
+         url('../fonts/leckerlione/leckerlione-regular-webfont.svg#leckerli_oneregular') format('svg');}
+
+
+body{width:100% ;
+margin: 0;
+padding: 0;}
+
+/*nav*/
+.navigation{display:flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+align-items: center;
+width: 960px;
+padding-top: 35px;
+margin: 0 auto;}
+
+
+.logo{display: flex;
+align-items: center;}
+
+
+.nav{display: flex;
+text-decoration: none;
+text-transform: uppercase;
+    list-style: none;
+padding:40px 0;}
+
+.nav a{font-size: 18px;
+color: #252525;
+font-family: "Arial";
+font-weight: 800;
+text-align: center;
+text-decoration: none;}
+
+.nav li{padding: 0 19px;}
+.nav a:hover{color:#0ba39c}
+
+
+/*main*/
+
+
+.main{width: 100%;
+position: relative;
+text-align: center}
+.main img{width: 100%}
+
+
+.text{position: absolute;
+padding: 0 0 0 0px;
+top:50%;
+left: 50%;
+margin-top:-190px;
+text-align: left;}
+
+.first{font-size: 20px;
+color: #000000;
+font-family: 'Poller One', cursive;
+font-weight: 400;
+text-transform: uppercase;
+background-color: white;
+padding:24px 27px;}
+
+.sec{font-size: 20px;
+color:white;
+background:#252525;
+padding: 12px 27px;}
+
+.text button{text-transform: uppercase;
+color:white;
+background: #0ba39c;
+padding: 25px 27px;
+font-size: 16px;
+font-weight: bold;
+border: none;}
+.text button:hover{background: #12cbc3}
+
+
+/*photo*/
+.bottom{display: flex;
+justify-content: center;}
+
+.photo{display: flex;
+width: 935px;
+height: 506px;
+justify-content: space-around;
+margin: 40px auto;}
+
+.pic{display: flex;
+flex-direction: column;
+align-items: center;}
+
+.pic img{border:solid 2px #242424;
+opacity: .8;
+    transition: 0.5s ease-in-out;}
+
+.pic a:hover img{opacity: 1;}
+.pic span{font-size: 20px;
+color: #000000;
+font-family: "Poller One";
+font-weight: 400;
+text-align: center;
+text-transform: uppercase;
+margin-top: 32px;}
+
+
+
+/*footer*/
+footer{display: flex;
+justify-content: center;
+height: 120px;
+background: #252525}
+
+.end{width: 944px;
+display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.end ul{display: flex;
+list-style: none;}
+
+.end li{padding: 0 9px;}
+.end span{color:white;}
+
+
+/*about*/
+.about{display: flex;
+flex-direction: column;
+align-items: center;}
+.main-text{font-size:35px;
+font-family: 'Poller One', cursive;
+text-transform: uppercase;
+background:#252525;
+color:white;
+padding: 7px 15px}
+.about img{border:solid 2px #252525}
+.about p{text-align: center;
+line-height: 18px;}
+.main-inf{width: 560px;
+text-align: center;
+padding: 30px 0;}
+
+/*gallery*/
+.gallery{display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;}
+.pics{display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 960px}
+.pics img{margin: 20px 10px;
+margin-bottom: 30px;
+border:solid 2px #252525}
+
+/*blog*/
+.blog{display: flex;
+flex-direction: column;
+align-items: center;}
+
+.why{display: flex;
+width: 960px;
+margin-bottom: 15px;}
+
+.why div{display: flex;
+flex-direction: column;
+align-items: center;
+border: solid 1.5px black}
+.why div p{padding: 0 40px;
+line-height: 24px;}
+.why img{border: solid 1.5px black}
+.why-text{font-size: 25px;
+font-weight:900;
+margin:0;
+margin-top: 70px;
+font-family:  "Arial Black", Gadget, sans-serif;}
+.why a{background: black;
+color:white;
+border:none;
+text-transform: uppercase;
+font-size: 18px;
+font-family:  "Arial Black", Gadget, sans-serif;
+font-weight: 700;
+padding: 5px 15px;}
+.why a{text-decoration: none;
+color:white;
+cursor: pointer;}
+.why a:hover{background: white;
+color:black;
+padding: 5px 15px;
+border:solid 1px black;
+font-weight: 700;
+padding: 5px 15px;}
+
+
+
+
+/*post*/
+
+.blogpost{display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;}
+.blogpost img{border: solid 1.5px black;}
+
+.post-text{width: 660px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center}
+.post-text p{line-height: 24px;
+text-align: center;
+margin-bottom: 30px;}
